@@ -4,6 +4,9 @@ class Alumnos {
     String nombre, asignatura;
     int nota;
 
+    public Alumnos() {
+    }
+
     //Constructor por defecto
     //Un constructor no tiene tipo de retorno, se llaman automaticamente al crear una nueva instancia de la clase
     public Alumnos(String nombre, String asignatura, int nota) {
